@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F23A05B1D7861D200522354 /* Dia+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F23A0571D7861D200522354 /* Dia+CoreDataProperties.swift */; };
+		3F23A05C1D7861D200522354 /* Dia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F23A0581D7861D200522354 /* Dia.swift */; };
+		3F23A05D1D7861D200522354 /* Alarme+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F23A0591D7861D200522354 /* Alarme+CoreDataProperties.swift */; };
+		3F23A05E1D7861D200522354 /* Alarme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F23A05A1D7861D200522354 /* Alarme.swift */; };
 		3FA8E6231D784CD300D8EBF1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8E6221D784CD300D8EBF1 /* AppDelegate.swift */; };
 		3FA8E6251D784CD300D8EBF1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8E6241D784CD300D8EBF1 /* ViewController.swift */; };
 		3FA8E6281D784CD300D8EBF1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FA8E6261D784CD300D8EBF1 /* Main.storyboard */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F23A0571D7861D200522354 /* Dia+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Dia+CoreDataProperties.swift"; path = "../Dia+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F23A0581D7861D200522354 /* Dia.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dia.swift; path = ../Dia.swift; sourceTree = "<group>"; };
+		3F23A0591D7861D200522354 /* Alarme+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Alarme+CoreDataProperties.swift"; path = "../Alarme+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F23A05A1D7861D200522354 /* Alarme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Alarme.swift; path = ../Alarme.swift; sourceTree = "<group>"; };
 		3FA8E61F1D784CD300D8EBF1 /* WakeUpBoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeUpBoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA8E6221D784CD300D8EBF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FA8E6241D784CD300D8EBF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +102,10 @@
 		3FA8E63A1D784D6300D8EBF1 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				3F23A0571D7861D200522354 /* Dia+CoreDataProperties.swift */,
+				3F23A0581D7861D200522354 /* Dia.swift */,
+				3F23A0591D7861D200522354 /* Alarme+CoreDataProperties.swift */,
+				3F23A05A1D7861D200522354 /* Alarme.swift */,
 				3FA8E6291D784CD300D8EBF1 /* WakeUpBoi.xcdatamodeld */,
 			);
 			name = Model;
@@ -170,9 +182,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F23A05B1D7861D200522354 /* Dia+CoreDataProperties.swift in Sources */,
+				3F23A05D1D7861D200522354 /* Alarme+CoreDataProperties.swift in Sources */,
 				3FA8E6251D784CD300D8EBF1 /* ViewController.swift in Sources */,
 				3FA8E6231D784CD300D8EBF1 /* AppDelegate.swift in Sources */,
+				3F23A05C1D7861D200522354 /* Dia.swift in Sources */,
 				3FA8E62B1D784CD300D8EBF1 /* WakeUpBoi.xcdatamodeld in Sources */,
+				3F23A05E1D7861D200522354 /* Alarme.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -324,6 +340,7 @@
 				3FA8E6361D784CD300D8EBF1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
