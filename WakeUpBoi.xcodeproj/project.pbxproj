@@ -31,7 +31,7 @@
 		3F23A0631D79A3EA00522354 /* AlarmeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlarmeTableViewCell.swift; sourceTree = "<group>"; };
 		3F23A0651D79A40F00522354 /* AlarmeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AlarmeTableViewController.swift; path = ../AlarmeTableViewController.swift; sourceTree = "<group>"; };
 		3F23A0671D79A48C00522354 /* UIImage+Gif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImage+Gif.swift"; path = "../UIImage+Gif.swift"; sourceTree = "<group>"; };
-		3F23A06B1D79A99200522354 /* Alarme+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Alarme+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		3F23A06B1D79A99200522354 /* Alarme+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Alarme+CoreDataProperties.swift"; path = "../Alarme+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		3FA8E61F1D784CD300D8EBF1 /* WakeUpBoi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WakeUpBoi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FA8E6221D784CD300D8EBF1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3FA8E6241D784CD300D8EBF1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,7 +56,6 @@
 		3FA8E6161D784CD200D8EBF1 = {
 			isa = PBXGroup;
 			children = (
-				3F23A06B1D79A99200522354 /* Alarme+CoreDataProperties.swift */,
 				3FA8E6211D784CD300D8EBF1 /* WakeUpBoi */,
 				3FA8E6201D784CD300D8EBF1 /* Products */,
 			);
@@ -117,6 +116,7 @@
 			children = (
 				3F23A0571D7861D200522354 /* Dia+CoreDataProperties.swift */,
 				3F23A0581D7861D200522354 /* Dia.swift */,
+				3F23A06B1D79A99200522354 /* Alarme+CoreDataProperties.swift */,
 				3F23A05A1D7861D200522354 /* Alarme.swift */,
 				3FA8E6291D784CD300D8EBF1 /* WakeUpBoi.xcdatamodeld */,
 			);
