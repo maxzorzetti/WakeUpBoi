@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Automatic">
     <entity name="Alarme" representedClassName=".Alarme" syncable="YES">
+        <attribute name="distancia" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
         <attribute name="horario" optional="YES" attributeType="Date" syncable="YES"/>
         <attribute name="som" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="vibration" optional="YES" attributeType="Boolean" syncable="YES"/>
@@ -11,7 +12,7 @@
         <relationship name="alarmes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Alarme" inverseName="dias" inverseEntity="Alarme" syncable="YES"/>
     </entity>
     <elements>
+        <element name="Alarme" positionX="-290" positionY="41" width="128" height="120"/>
         <element name="Dia" positionX="-533" positionY="107" width="128" height="73"/>
-        <element name="Alarme" positionX="-290" positionY="41" width="128" height="103"/>
     </elements>
 </model>

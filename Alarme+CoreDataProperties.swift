@@ -2,7 +2,7 @@
 //  Alarme+CoreDataProperties.swift
 //  WakeUpBoi
 //
-//  Created by Student on 9/1/16.
+//  Created by Student on 9/2/16.
 //  Copyright © 2016 Dankness Edit. All rights reserved.
 //
 //  Choose "Create NSManagedObject Subclass…" from the Core Data editor menu
@@ -17,6 +17,7 @@ extension Alarme {
     @NSManaged var horario: NSDate?
     @NSManaged var som: String?
     @NSManaged var vibration: NSNumber?
+    @NSManaged var distancia: NSNumber?
     @NSManaged var dias: NSSet?
 
 }
